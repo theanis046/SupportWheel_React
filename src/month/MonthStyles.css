@@ -1,0 +1,36 @@
+/* calendar event */
+.month_default_event_inner {
+    background: #999999;
+    color: #fff;
+    border: 1px none;
+    font-size: 10pt;
+    padding: 0px 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+
+    /* vertical centering */
+    display: flex;
+    align-items: center;
+}
+
+.month_default_header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* context menu icons */
+.icon:before {
+    position: absolute;
+    left: 0px;
+    margin-left: 8px;
+    margin-top: 3px;
+    width: 14px;
+    height: 14px;
+    content: '';
+}
+
+.icon-blue:before { background-color: #3c78d8; }
+.icon-green:before { background-color: #6aa84f; }
+.icon-yellow:before { background-color: #e69138; }
+.icon-red:before { background-color: #cc0000; }
